@@ -1,0 +1,107 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-TequliasRestaurant-a2b085a5-d3b7-48f2-9a69-d24e0001757f</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Properties\wwwroot\css\site.css" />
+    <Content Include="Properties\wwwroot\favicon.ico" />
+    <Content Include="Properties\wwwroot\images\01b39ae4-5034-4886-8a34-7b07d58f3d0e_Beef-Tacos.webp" />
+    <Content Include="Properties\wwwroot\images\1736c3c6-519e-4789-960f-96df3fc6b64e_Beef-Tacos.webp" />
+    <Content Include="Properties\wwwroot\images\20164659-6494-4e5c-b49c-ba72fe00b652_Leonardo_Vision_XL_A_vibrant_scene_of_exotic_birds_perched_on_0 %281%29.jpg" />
+    <Content Include="Properties\wwwroot\images\2621cff1-bb91-4999-bc8e-0e90969ebd17_veggietacos.jpg" />
+    <Content Include="Properties\wwwroot\images\270f5a41-49a4-4949-81c0-fabefd6bf7c8_Leonardo_Vision_XL_A_vibrant_scene_of_exotic_birds_perched_on_0 %281%29.jpg" />
+    <Content Include="Properties\wwwroot\images\2ada6767-f5f9-4766-8d41-8417783d9a02_veggietacos.jpg" />
+    <Content Include="Properties\wwwroot\images\3e95b7f6-4d3b-414f-a458-822a66176e85_gallery2.jpg" />
+    <Content Include="Properties\wwwroot\images\6ade7c8f-00b5-4e88-b3b7-32cc0804bfa4_Leonardo_Vision_XL_A_vibrant_scene_of_exotic_birds_perched_on_0 %281%29.jpg" />
+    <Content Include="Properties\wwwroot\images\72f479cc-04ac-41bb-8dca-12840771264b_d4eee3d0-c782-4ab0-9244-36ba2755ceac.jfif" />
+    <Content Include="Properties\wwwroot\images\7a06073f-6d0b-4c8c-8a4e-c5edabe80dc6_Leonardo_Vision_XL_A_vibrant_scene_of_exotic_birds_perched_on_0 %281%29.jpg" />
+    <Content Include="Properties\wwwroot\images\9bac5e3d-d0b9-493e-a1f5-63d7923ceaa6_veggietacos.jpg" />
+    <Content Include="Properties\wwwroot\images\bd5fcb46-0217-41be-8b29-038f472821bd_cox.jpg" />
+    <Content Include="Properties\wwwroot\images\beef.jpg" />
+    <Content Include="Properties\wwwroot\images\beeftacos.jpg" />
+    <Content Include="Properties\wwwroot\images\chickentacos.jpg" />
+    <Content Include="Properties\wwwroot\images\f4ee1c71-f933-4f14-bae5-931a96631d58_veggietacos.jpg" />
+    <Content Include="Properties\wwwroot\images\fishtacos.jpg" />
+    <Content Include="Properties\wwwroot\js\site.js" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Include="Properties\wwwroot\lib\bootstrap\LICENSE" />
+    <Content Include="Properties\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="Properties\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Properties\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="Properties\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="Properties\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="Properties\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="Properties\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="Properties\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <Content Include="Properties\wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Include="Properties\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="Properties\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <Content Include="Properties\wwwroot\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+</Project>
